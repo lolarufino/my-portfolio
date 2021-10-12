@@ -41,7 +41,7 @@
       </div>
       <img
         class="footer-gif"
-        src="https://i.ibb.co/9wvK33X/animation-640-kucts3zv.gif"
+        src="https://i.ibb.co/mtrdtdj/animation-640-kunzngt9sinfondo.gif"
         alt="Gif of a personal computer"
       />
     </div>
@@ -95,6 +95,7 @@ export default defineComponent({
         align-items: center;
         margin: 12px;
         .email-text {
+          margin-right: 4px;
         }
         .email-container {
           background-color: $gray;
