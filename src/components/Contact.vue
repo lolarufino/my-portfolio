@@ -41,7 +41,7 @@
       </div>
       <img
         class="footer-gif"
-        src="https://i.ibb.co/mtrdtdj/animation-640-kunzngt9sinfondo.gif"
+        src="https://i.ibb.co/9wvK33X/animation-640-kucts3zv.gif"
         alt="Gif of a personal computer"
       />
     </div>
@@ -65,7 +65,7 @@ export default defineComponent({
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $pink;
+  background-color: $bgpink;
   font-family: $font;
   .contact-wrapper {
     display: flex;
