@@ -1,30 +1,35 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <Home id="home" />
+    <About id="about" />
+    <Projects id="projects" />
+    <Contact id="contact" />
   </div>
-  <router-view/>
 </template>
 
+<script lang="ts">
+import { defineComponent } from "vue";
+import Home from "../src/components/Home.vue";
+import About from "../src/components/About.vue";
+import Projects from "../src/components/Projects.vue";
+import Contact from "../src/components/Contact.vue";
+
+export default defineComponent({
+  components: {
+    Home,
+    About,
+    Projects,
+    Contact,
+  },
+});
+</script>
+
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
