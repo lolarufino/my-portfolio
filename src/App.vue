@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-wrapper">
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -32,4 +32,16 @@ export default defineComponent({
 
 
 <style lang="scss">
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
 </style>
