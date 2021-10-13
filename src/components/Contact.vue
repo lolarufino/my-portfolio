@@ -76,6 +76,7 @@ export default defineComponent({
         @extend %titles-wrapper;
         .title {
           @extend %title;
+          letter-spacing: 2px;
         }
       }
       .email-wrapper {
@@ -124,6 +125,38 @@ export default defineComponent({
     color: $gray;
     font-size: 14px;
     margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-wrapper {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      .info-wrapper {
+        width: 40%;
+        display: flex;
+        align-items: flex-start;
+        .email-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .email-container {
+            margin-top: 15px;
+          }
+        }
+        .socialnetwork-wrapper {
+          display: flex;
+          justify-content: flex-start;
+          .social-wrapper {
+            margin-right: 18px;
+          }
+        }
+      }
+      .footer-gif {
+        width: 40%;
+      }
+    }
   }
 }
 </style>
