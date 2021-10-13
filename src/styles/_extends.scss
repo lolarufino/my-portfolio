@@ -1,0 +1,27 @@
+%titles-wrapper {
+  background-color: $gray;
+  padding: 3%;
+  border-radius: 40px 0 40px 0;
+  width: fit-content;
+  margin: 12px;
+}
+%title {
+  color: $green;
+  font-weight: 200;
+}
+%icon-wrapper {
+  background-color: $gray;
+  width: fit-content;
+  border-radius: 10px 0 10px 0;
+  padding: 1%;
+}
+%icon {
+  display: flex;
+  width: 50px;
+}
+
+%flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

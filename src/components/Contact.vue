@@ -60,32 +60,22 @@ export default defineComponent({
 
 <style lang="scss">
 @import "../styles/variables";
+@import "../styles/extends";
 .footer-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend %flex-column-center;
   justify-content: center;
-  background-color: $pink;
+  background-color: $bgpink;
   font-family: $font;
   .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend %flex-column-center;
     .info-wrapper {
       width: 85%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @extend %flex-column-center;
       margin-top: 35px;
       .title-wrapper {
-        background-color: $gray;
-        padding: 3%;
-        border-radius: 40px 0 40px 0;
-        width: fit-content;
-        margin: 12px;
+        @extend %titles-wrapper;
         .title {
-          color: $green;
-          font-weight: 200;
+          @extend %title;
         }
       }
       .email-wrapper {
@@ -95,6 +85,7 @@ export default defineComponent({
         align-items: center;
         margin: 12px;
         .email-text {
+          margin-right: 4px;
         }
         .email-container {
           background-color: $gray;
@@ -116,13 +107,9 @@ export default defineComponent({
         display: flex;
         margin: 12px;
         .social-wrapper {
-          background-color: $gray;
-          width: fit-content;
-          border-radius: 10px 0 10px 0;
-          padding: 1%;
+          @extend %icon-wrapper;
           .social-icon {
-            display: flex;
-            width: 50px;
+            @extend %icon;
           }
         }
       }
