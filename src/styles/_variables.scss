@@ -7,3 +7,10 @@ $bgpinkabout: #d2bed9;
 
 /* FONT */
 $font: "Roboto Mono", Courier, Arial, monospace;
+
+/* ANIMATION */
+$animationSteps: 20;
+$animationDuration: 50;
+$animationElement: span;
+$animationElementsCount: 100;
+$delayBetweenLetters: 0.2;
