@@ -32,11 +32,15 @@ export default defineComponent({
 
 
 <style lang="scss">
+@import "styles/variables";
 * {
   margin: 0;
 }
 body {
   width: 100vw;
+}
+a {
+  color: $gray;
 }
 .main-wrapper {
   display: flex;
