@@ -26,18 +26,18 @@
           Due my past working as photographer, I love to pay special attention
           to details. I really love frontend because I think It has many things
           in common with composition in photography. I learned to be patient and
-          wait for the perfect light and moment to shot a photo. I use these
-          techniques now to understand and write my code. My past as seller,
-          allows me to empathize with every kind of person and to work in
-          groups. Now I can use all these skills for programming.
+          wait for the perfect light and moment to shot a photo.
         </p>
-        <span
-          ><a
-            class="cv"
-            href="https://pdfhost.io/v/y1WMEXd68_CV_Lola_Rufino_English"
-            target="_blank"
-            >Download my CV</a
-          ></span
+        <p class="article-text">
+          I use these techniques now to understand and write my code. My past as
+          seller, allows me to empathize with every kind of person and to work
+          in groups. Now I can use all these skills for programming.
+        </p>
+        <a
+          class="cv"
+          href="https://pdfhost.io/v/y1WMEXd68_CV_Lola_Rufino_English"
+          target="_blank"
+          >Download my CV</a
         >
       </article>
     </div>
@@ -76,7 +76,7 @@
 @import "../styles/variables";
 @import "../styles/extends";
 .about-wrapper {
-  background-color: $pink;
+  background-color: $bgpinkabout;
   font-family: $font;
   color: $gray;
   padding-top: 40px;
@@ -99,8 +99,12 @@
         margin-bottom: 10px;
       }
       .cv {
+        color: $gray;
         text-shadow: 3px 3px 2px $green;
         text-decoration: none;
+        &:hover {
+          text-shadow: 0px 0px 0px;
+        }
       }
     }
   }
@@ -126,6 +130,27 @@
       .portrait {
         width: 90%;
         align-self: center;
+      }
+    }
+  }
+}
+@media screen and (min-width: 860px) {
+  .about-wrapper {
+    .first-block {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .article-wrapper {
+        width: 40%;
+      }
+    }
+    .second-block {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      .article-wrapper {
+        width: 40%;
       }
     }
   }
