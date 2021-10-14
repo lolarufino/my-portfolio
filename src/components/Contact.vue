@@ -14,7 +14,7 @@
         <p class="social-text">Social media accounts:</p>
         <div class="socialnetwork-wrapper">
           <div class="social-wrapper">
-            <a href=""
+            <a href="https://www.linkedin.com/in/lola-rufino/" target="_blank"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/L0GzvnK/linkedin-2-green.png"
@@ -22,7 +22,7 @@
             /></a>
           </div>
           <div class="social-wrapper">
-            <a href=""
+            <a href="https://github.com/lolarufino" target="_blank"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/PQnQkh6/github-1-green.png"
@@ -30,7 +30,7 @@
             /></a>
           </div>
           <div class="social-wrapper">
-            <a href=""
+            <a href="https://twitter.com/lolarufino" target="_blank"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/Bz7gbM3/gorjegreen.png"
@@ -143,6 +143,9 @@ export default defineComponent({
           align-items: flex-start;
           .email-container {
             margin-top: 15px;
+            &:hover {
+              transform: scale(1.2);
+            }
           }
         }
         .socialnetwork-wrapper {
@@ -150,6 +153,9 @@ export default defineComponent({
           justify-content: flex-start;
           .social-wrapper {
             margin-right: 18px;
+            &:hover {
+              transform: scale(1.2);
+            }
           }
         }
       }
