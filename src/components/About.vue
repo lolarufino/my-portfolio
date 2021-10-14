@@ -77,7 +77,7 @@
   </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../styles/variables";
 @import "../styles/extends";
 .about-wrapper {
@@ -171,10 +171,6 @@
   border-radius: 10px 0 10px 0;
   font-weight: 900;
 }
-
-/*
-   * Keyframe loop
-   */
 @keyframes anim-text-flow-keys {
   @for $i from 0 through $animationSteps {
     #{percentage($i * (1 / $animationSteps))} {
@@ -182,12 +178,7 @@
     }
   }
 }
-
-/*
-   * Element animation delay loop
-   */
 $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
-
 @for $i from 1 through $animationElementsCount {
   #{$animationElement}:nth-of-type(#{$i}) {
     animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
