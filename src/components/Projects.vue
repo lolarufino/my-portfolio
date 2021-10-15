@@ -9,7 +9,7 @@
       src="https://i.ibb.co/RSv84Cg/mockup-revela-and-gosamll.png"
     />
     <SingleProject
-      stack="#Vue #Vuex #Typescript #SASS #Vercel"
+      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
       description="Simple To Do List where you can add new tasks, delete tasks, update tasks, complete tasks and filter by state."
       deploylink="https://todolist-vue-lolarufino.vercel.app/"
       githublink="https://github.com/lolarufino/todolist-vue"
@@ -41,5 +41,12 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 860px) {
+  .projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 </style>
