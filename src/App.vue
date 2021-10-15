@@ -57,9 +57,6 @@ export default defineComponent({
 body {
   width: 100vw;
 }
-html {
-  scroll-behavior: smooth;
-}
 a {
   color: $gray;
 }
@@ -74,6 +71,9 @@ a {
   }
 }
 @media screen and (min-width: 480px) {
+  * {
+    scroll-behavior: smooth;
+  }
   .main-wrapper {
     .arrow-wrapper {
       display: block;
