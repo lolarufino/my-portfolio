@@ -64,7 +64,7 @@ export default defineComponent({
 .footer-wrapper {
   @extend %flex-column-center;
   justify-content: center;
-  background-color: $bgpinkcontact;
+  background-color: $pink;
   font-family: $font;
   .contact-wrapper {
     @extend %flex-column-center;
@@ -117,7 +117,6 @@ export default defineComponent({
     }
     .footer-gif {
       width: 85%;
-      margin: 12px;
     }
   }
   .copyright-text {
