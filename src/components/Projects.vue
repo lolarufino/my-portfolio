@@ -36,7 +36,7 @@ export default defineComponent({
 @import "../styles/variables";
 .projects-wrapper {
   background-color: $gray;
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
