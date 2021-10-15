@@ -29,12 +29,12 @@
           Due my past working as photographer, I love to pay special attention
           to details. I really love frontend because I think It has many things
           in common with composition in photography. I learned to be patient and
-          wait for the perfect light and moment to shot a photo.
+          wait for the perfect light and moment to shot a photo. I use these
+          skills now to understand and write my code.
         </p>
         <p class="article-text">
-          I use these techniques now to understand and write my code. My past as
-          seller, allows me to empathize with every kind of person and to work
-          in groups. Now I can use all these skills for programming.
+          My past as seller, allows me to empathize with every kind of person
+          and to work in groups.
         </p>
         <a
           class="decoration-text"
@@ -85,11 +85,11 @@ export default defineComponent({
 @import "../styles/variables";
 @import "../styles/extends";
 .about-wrapper {
-  background-color: $bgpinkabout;
+  background-color: $pink;
   font-family: $font;
   color: $gray;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   @extend %flex-column-center;
   .first-block {
     width: 85%;
@@ -153,12 +153,17 @@ export default defineComponent({
 }
 @media screen and (min-width: 860px) {
   .about-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
     .first-block {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      padding-top: 0;
+      padding-bottom: 0;
       .article-wrapper {
         width: 40%;
+        margin-top: 0;
       }
     }
     .second-block {
@@ -168,6 +173,7 @@ export default defineComponent({
       align-items: center;
       .article-wrapper {
         width: 40%;
+        margin-top: 0;
       }
     }
   }

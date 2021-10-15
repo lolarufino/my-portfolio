@@ -49,12 +49,12 @@ a {
   margin-bottom: 40px;
   .stack {
     color: $green;
-    text-shadow: 1px 1px 0 $bgpinkabout;
+    text-shadow: 1px 1px 0 $pink;
     margin-bottom: 10px;
     order: 4;
   }
   .description {
-    color: $bgpinkabout;
+    color: $pink;
     margin-bottom: 25px;
     order: 5;
   }
@@ -66,18 +66,14 @@ a {
     order: 3;
     .deploylink {
       width: 50px;
-      box-shadow: 1px 1px 4px $bgpinkabout;
-      border-radius: 0 10px 0 10px;
     }
     .githublink {
       width: 50px;
-      box-shadow: 1px 1px 4px $bgpinkabout;
-      border-radius: 0 10px 0 10px;
     }
   }
   .title {
     color: $green;
-    text-shadow: 1px 1px 0 $bgpinkabout;
+    text-shadow: 1px 1px 0 $pink;
     font-size: 36px;
     margin-bottom: 10px;
     order: 1;
@@ -85,7 +81,7 @@ a {
   .preview {
     border-radius: 0 40px 0 40px;
     width: 100%;
-    box-shadow: 2px 2px 0 $bgpinkabout;
+    box-shadow: 2px 2px 0 $pink;
     order: 2;
   }
 }
