@@ -51,15 +51,19 @@ a {
     color: $green;
     text-shadow: 1px 1px 0 $bgpinkabout;
     margin-bottom: 10px;
+    order: 4;
   }
   .description {
     color: $bgpinkabout;
     margin-bottom: 25px;
+    order: 5;
   }
   .links-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    order: 3;
     .deploylink {
       width: 50px;
       box-shadow: 1px 1px 4px $bgpinkabout;
@@ -76,11 +80,46 @@ a {
     text-shadow: 1px 1px 0 $bgpinkabout;
     font-size: 36px;
     margin-bottom: 10px;
+    order: 1;
   }
   .preview {
     border-radius: 0 40px 0 40px;
     width: 100%;
     box-shadow: 2px 2px 0 $bgpinkabout;
+    order: 2;
+  }
+}
+@media screen and (min-width: 860px) {
+  .project-wrapper {
+    width: 30%;
+    .stack {
+      order: 2;
+    }
+    .description {
+      order: 3;
+    }
+    .links-wrapper {
+      margin-top: 0;
+      order: 4;
+      .deploylink {
+        transition: all 300ms ease-in-out;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+      .githublink {
+        transition: all 300ms ease-in-out;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    .title {
+      order: 1;
+    }
+    .preview {
+      order: 5;
+    }
   }
 }
 </style>
