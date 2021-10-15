@@ -41,7 +41,7 @@
       </div>
       <img
         class="footer-gif"
-        src="https://i.ibb.co/9wvK33X/animation-640-kucts3zv.gif"
+        src="https://i.ibb.co/SrHcBVc/animation-640-kur2c437.gif"
         alt="Gif of a personal computer"
       />
     </div>
@@ -143,6 +143,7 @@ export default defineComponent({
           align-items: flex-start;
           .email-container {
             margin-top: 15px;
+            transition: all 300ms ease-in-out;
             &:hover {
               transform: scale(1.2);
             }
@@ -153,6 +154,7 @@ export default defineComponent({
           justify-content: flex-start;
           .social-wrapper {
             margin-right: 18px;
+            transition: all 300ms ease-in-out;
             &:hover {
               transform: scale(1.2);
             }
