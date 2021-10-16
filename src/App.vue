@@ -2,9 +2,7 @@
   <div class="main-wrapper">
     <nav class="burger-menu">
       <div class="menu-toggle">
-        <label>
-          <input class="checkbox" type="checkbox" />
-        </label>
+        <input class="checkbox" type="checkbox" />
         <span class="line"></span><span class="line"></span
         ><span class="line"></span>
         <div class="menu-list">
