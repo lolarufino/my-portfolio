@@ -16,6 +16,14 @@
       title="To Do List Vue"
       src="https://i.ibb.co/Bq1Nk4M/pf-s73-eve-set-14-mockupsmall.png"
     />
+    <SingleProject
+      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
+      description="My personal portfolio website. Mobile first designed, with a burger menu and adaptable to desktop."
+      deploylink="https://lola-rufino-dev.vercel.app/"
+      githublink="https://github.com/lolarufino/my-portfolio"
+      title="lolarufino.dev"
+      src="https://i.ibb.co/168jvZg/portfolimockup.png"
+    />
   </div>
 </template>
 
@@ -36,7 +44,7 @@ export default defineComponent({
 @import "../styles/variables";
 .projects-wrapper {
   background-color: $gray;
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -47,6 +55,7 @@ export default defineComponent({
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
 </style>

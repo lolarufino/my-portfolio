@@ -87,7 +87,8 @@ a {
 }
 @media screen and (min-width: 860px) {
   .project-wrapper {
-    width: 30%;
+    margin-top: 30px;
+    width: 35%;
     .stack {
       order: 2;
     }
