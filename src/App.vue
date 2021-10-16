@@ -2,7 +2,9 @@
   <div class="main-wrapper">
     <nav class="burger-menu">
       <div class="menu-toggle">
-        <input class="checkbox" type="checkbox" />
+        <label>
+          <input class="checkbox" type="checkbox" />
+        </label>
         <span class="line"></span><span class="line"></span
         ><span class="line"></span>
         <div class="menu-list">
@@ -47,11 +49,11 @@
       <Contact />
     </div>
     <div class="arrow-wrapper">
-      <a href="#nav">
+      <a href="#home">
         <img
           class="arrow-wrapper"
           src="https://i.ibb.co/ftVfkXK/ahead-only.png"
-          alt=""
+          alt="Arrow to navigate up in the page"
         />
       </a>
     </div>
@@ -72,6 +74,9 @@ export default defineComponent({
     About,
     Projects,
     Contact,
+  },
+  data() {
+    return {};
   },
 });
 </script>
@@ -102,8 +107,6 @@ a {
       top: 30px;
       left: 30px;
       z-index: 1;
-      -webkit-user-select: none;
-      user-select: none;
       background-color: $green;
       width: 50px;
       height: 50px;
@@ -118,7 +121,6 @@ a {
         cursor: pointer;
         opacity: 0;
         z-index: 2;
-        -webkit-touch-callout: none;
         &:checked ~ .line {
           opacity: 1;
           transform: rotate(45deg) translate(-2px, -1px);
@@ -165,7 +167,6 @@ a {
         padding: 50px;
         padding-top: 165px;
         background: $gray;
-        -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -210,6 +211,19 @@ a {
       width: 50px;
       height: 50px;
     }
+  }
+  ::-webkit-scrollbar {
+    width: 13px;
+    background-color: $gray;
+  }
+  ::-webkit-scrollbar-track {
+    border: 1px solid $green;
+    border-radius: 15px;
+    background-color: $gray;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $green;
+    border-radius: 15px;
   }
 }
 </style>

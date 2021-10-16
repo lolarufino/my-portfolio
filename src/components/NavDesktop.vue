@@ -66,13 +66,13 @@ export default defineComponent({
       align-items: center;
       .icon {
         width: 40px;
-        transition: all 400ms ease-in-out;
+        transition: all 300ms ease-in-out;
         &:hover {
-          transform: translateY(-20px);
+          transform: translateY(-8px);
         }
         &:hover ~ .text {
           visibility: visible;
-          animation: text 0.5s ease-in-out;
+          animation: text 0.3s ease-in-out;
         }
       }
       .text {
