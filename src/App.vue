@@ -1,6 +1,5 @@
 <template>
   <div class="main-wrapper">
-    <NavDesktop class="nav-desktop" id="nav" />
     <div id="home">
       <Home />
     </div>
@@ -31,12 +30,10 @@ import Home from "../src/components/Home.vue";
 import About from "../src/components/About.vue";
 import Projects from "../src/components/Projects.vue";
 import Contact from "../src/components/Contact.vue";
-import NavDesktop from "../src/components/NavDesktop.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    NavDesktop,
     Home,
     About,
     Projects,
@@ -63,9 +60,6 @@ a {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  .nav-desktop {
-    display: none;
-  }
   .arrow-wrapper {
     display: none;
   }
@@ -75,9 +69,6 @@ a {
     scroll-behavior: smooth;
   }
   .main-wrapper {
-    .nav-desktop {
-      display: block;
-    }
     .arrow-wrapper {
       display: block;
       position: fixed;
