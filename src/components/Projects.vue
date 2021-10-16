@@ -32,11 +32,11 @@ export default defineComponent({
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../styles/variables";
 .projects-wrapper {
   background-color: $gray;
-  padding-top: 70px;
+  padding-top: 90px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;

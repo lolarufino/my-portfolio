@@ -14,7 +14,10 @@
         <p class="social-text">Social media accounts:</p>
         <div class="socialnetwork-wrapper">
           <div class="social-wrapper">
-            <a href="https://www.linkedin.com/in/lola-rufino/" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/lola-rufino/"
+              target="_blank"
+              rel="noopener"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/L0GzvnK/linkedin-2-green.png"
@@ -22,7 +25,10 @@
             /></a>
           </div>
           <div class="social-wrapper">
-            <a href="https://github.com/lolarufino" target="_blank"
+            <a
+              href="https://github.com/lolarufino"
+              target="_blank"
+              rel="noopener"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/PQnQkh6/github-1-green.png"
@@ -30,7 +36,10 @@
             /></a>
           </div>
           <div class="social-wrapper">
-            <a href="https://twitter.com/lolarufino" target="_blank"
+            <a
+              href="https://twitter.com/lolarufino"
+              target="_blank"
+              rel="noopener"
               ><img
                 class="social-icon"
                 src="https://i.ibb.co/Bz7gbM3/gorjegreen.png"
@@ -58,7 +67,7 @@ export default defineComponent({
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../styles/variables";
 @import "../styles/extends";
 .footer-wrapper {
@@ -71,7 +80,7 @@ export default defineComponent({
     .info-wrapper {
       width: 85%;
       @extend %flex-column-center;
-      margin-top: 35px;
+      margin-top: 75px;
       .title-wrapper {
         @extend %titles-wrapper;
         .title {
