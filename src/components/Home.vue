@@ -107,7 +107,7 @@ export default defineComponent({
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: $gray;
     height: 100vh;
     .nav-desktop {
