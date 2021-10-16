@@ -10,7 +10,7 @@
 
 [Link to deployment](https://lola-rufino-dev.vercel.app/)
 
-![My portfolio Preview](https://i.ibb.co/mtZp5my/portfolio.gif)
+![My portfolio Preview](https://i.ibb.co/tXPBZLx/portfolio.gif)
 
 ## Project setup
 
