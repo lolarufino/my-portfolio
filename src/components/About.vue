@@ -27,14 +27,14 @@
         <h2 class="article-title">Experience</h2>
         <p class="article-text">
           Due my past working as photographer, I love to pay special attention
-          to details. I really love frontend because I think It has many things
+          to details. I really love frontend because I think it has many things
           in common with composition in photography. I learned to be patient and
-          wait for the perfect light and moment to shot a photo. I use these
-          skills now to understand and write my code.
+          wait for the perfect light and moment to shot a photo, so now I use
+          these skills to understand and write my code.
         </p>
         <p class="article-text">
           My past as seller, allows me to empathize with every kind of person
-          and to work in groups.
+          and to work in groups. I truly care about people and their problems.
         </p>
         <a
           class="decoration-text"
@@ -58,8 +58,8 @@
           <span class="decoration-text">Flux pattern</span>. For the backend
           area I know how to work with NodeJS, ExpressJS, MongoDB, Mongoose,
           PostMan, Passport, JWT, API Restful. I always test my code with unit
-          test using Jest. Other technologies: Git, GitHub, SonarQube, EsLint,
-          Trello, Slack, Excalidraw, Figma, Notion.
+          test using Jest. Other technologies I like to use: Git, GitHub,
+          SonarQube, EsLint, Trello, Slack, Excalidraw, Figma, Notion.
         </p>
       </article>
       <article class="article-wrapper">
