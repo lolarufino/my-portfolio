@@ -80,7 +80,7 @@ export default defineComponent({
     .info-wrapper {
       width: 85%;
       @extend %flex-column-center;
-      margin-top: 35px;
+      margin-top: 75px;
       .title-wrapper {
         @extend %titles-wrapper;
         .title {

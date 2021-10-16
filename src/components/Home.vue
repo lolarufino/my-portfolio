@@ -73,7 +73,7 @@ export default defineComponent({
       .hello {
         font-size: 36px;
         color: $green;
-        margin-top: 60px;
+        margin-top: 40px;
       }
       .iam {
         font-size: 48px;
@@ -96,8 +96,8 @@ export default defineComponent({
     }
     .home-gif {
       width: 80%;
-      margin-top: 60px;
-      margin-bottom: 80px;
+      margin-top: 10px;
+      margin-bottom: 40px;
     }
   }
 }
@@ -107,6 +107,7 @@ export default defineComponent({
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     background-color: $gray;
     height: 100vh;
     .nav-desktop {
