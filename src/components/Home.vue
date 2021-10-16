@@ -5,19 +5,22 @@
       <p class="iam">I'm Lola Rufino</p>
       <p class="profession">Fullstack Developer & Photographer</p>
       <div class="icons-wrapper">
-        <a href="https://www.linkedin.com/in/lola-rufino/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/lola-rufino/"
+          target="_blank"
+          rel="noopener"
           ><img
             class="icon"
             src="https://i.ibb.co/ZYTF7mc/linkedin-2-pink.png"
             alt="Linkedin icon"
         /></a>
-        <a href="https://github.com/lolarufino" target="_blank"
+        <a href="https://github.com/lolarufino" target="_blank" rel="noopener"
           ><img
             class="icon"
             src="https://i.ibb.co/5KrcTBM/github-1-pink.png"
             alt="Github icon"
         /></a>
-        <a href="https://twitter.com/lolarufino" target="_blank"
+        <a href="https://twitter.com/lolarufino" target="_blank" rel="noopener"
           ><img
             class="icon"
             src="https://i.ibb.co/HNT8DJx/gorjeopink.png"

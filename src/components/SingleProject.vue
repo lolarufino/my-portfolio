@@ -3,14 +3,14 @@
     <p class="stack">{{ stack }}</p>
     <p class="description">{{ description }}</p>
     <div class="links-wrapper">
-      <a :href="deploylink" target="_blank"
+      <a :href="deploylink" target="_blank" rel="noopener"
         ><img
           class="deploylink"
           src="https://i.ibb.co/4dWQCqj/enlacegreen.png"
           alt="Link icon"
         />Deploy</a
       >
-      <a :href="githublink" target="_blank"
+      <a :href="githublink" target="_blank" rel="noopener"
         ><img
           class="githublink"
           src="https://i.ibb.co/g79GY6c/github-1-green.png"
@@ -20,7 +20,7 @@
       >
     </div>
     <h3 class="title">{{ title }}</h3>
-    <img class="preview" :src="src" />
+    <img class="preview" :src="src" alt="Preview of project" />
   </section>
 </template>
 
