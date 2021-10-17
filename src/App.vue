@@ -73,9 +73,6 @@ export default defineComponent({
     Projects,
     Contact,
   },
-  data() {
-    return {};
-  },
 });
 </script>
 
@@ -189,7 +186,7 @@ a {
     display: none;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1024px) {
   * {
     scroll-behavior: smooth;
   }

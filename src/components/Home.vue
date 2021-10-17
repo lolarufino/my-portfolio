@@ -102,7 +102,7 @@ export default defineComponent({
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1024px) {
   .wrapper-nav {
     display: flex;
     flex-direction: column;
