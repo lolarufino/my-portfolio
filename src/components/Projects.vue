@@ -24,6 +24,14 @@
       title="lolarufino.dev"
       src="https://i.ibb.co/168jvZg/portfolimockup.png"
     />
+    <SingleProject
+      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
+      description="This is a quiz game to practice computer science concepts. You can check how I use conditional rendering and dynamic classes."
+      deploylink="https://quiz-game-lyart.vercel.app/"
+      githublink="https://github.com/lolarufino/quiz-game"
+      title="Quiz Game"
+      src="https://i.ibb.co/K7Y3tPQ/quizmockup.png"
+    />
   </div>
 </template>
 
