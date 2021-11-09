@@ -38,7 +38,7 @@
         </p>
         <a
           class="decoration-text"
-          href="https://pdfhost.io/v/y1WMEXd68_CV_Lola_Rufino_English"
+          href="https://pdfhost.io/v/BqmZAlmwn_CV_Lola_Rufino_English"
           target="_blank"
           rel="noopener"
           >Download my CV</a
