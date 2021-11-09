@@ -54,7 +54,10 @@
         alt="Gif of a personal computer"
       />
     </div>
-    <span class="copyright-text">&copy; Lola Rufino 2021</span>
+    <span class="copyright-text">
+      Made with 💜 by Lola Rufino &copy; 2021. Animations by Andy Parker.
+      Illustration by Cat In the City Art.</span
+    >
   </footer>
 </template>
 
@@ -131,8 +134,9 @@ export default defineComponent({
   .copyright-text {
     margin: 12px;
     color: $gray;
-    font-size: 14px;
-    margin-bottom: 25px;
+    font-size: 12px;
+    margin-top: 65px;
+    margin-bottom: 35px;
   }
 }
 @media screen and (min-width: 480px) {
