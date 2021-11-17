@@ -55,8 +55,8 @@
       />
     </div>
     <span class="copyright-text">
-      Made with 💜 by Lola Rufino &copy; 2021. Animations by Andy Parker.
-      Illustration by Cat In the City Art.</span
+      Made with 💜 by Lola Rufino &copy; {{ getYear() }}. Animations by Andy
+      Parker. Illustration by Cat In the City Art.</span
     >
   </footer>
 </template>
@@ -66,6 +66,13 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Contact",
+  methods: {
+    getYear() {
+      let today = new Date();
+      let year = today.getFullYear();
+      return year;
+    },
+  },
 });
 </script>
 
