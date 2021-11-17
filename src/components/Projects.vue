@@ -32,6 +32,14 @@
       title="Quiz Game"
       src="https://i.ibb.co/K7Y3tPQ/quizmockup.png"
     />
+    <SingleProject
+      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
+      description="small e-commerce to practice all the options of add, delete and update an amount on a Cart component, via button or via input."
+      deploylink="https://shopping-cart-gules-nine.vercel.app/"
+      githublink="https://github.com/lolarufino/shopping-cart"
+      title="Shopping Cart"
+      src="https://i.ibb.co/vDqChqD/eshoppingmock.png"
+    />
   </div>
 </template>
 
