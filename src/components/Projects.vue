@@ -18,27 +18,18 @@
     />
     <SingleProject
       stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
-      description="My personal portfolio website. Mobile first designed, with a burger menu and adaptable to desktop."
-      deploylink="https://lola-rufino-dev.vercel.app/"
-      githublink="https://github.com/lolarufino/my-portfolio"
-      title="lolarufino.dev"
-      src="https://i.ibb.co/168jvZg/portfolimockup.png"
-    />
-    <SingleProject
-      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
-      description="This is a quiz game to practice computer science concepts. You can check how I use conditional rendering and dynamic classes."
-      deploylink="https://quiz-game-lyart.vercel.app/"
-      githublink="https://github.com/lolarufino/quiz-game"
-      title="Quiz Game"
-      src="https://i.ibb.co/K7Y3tPQ/quizmockup.png"
-    />
-    <SingleProject
-      stack="#Vue #Vuex #Typescript #SASS #Vercel #Eslint #SonarQube #Github"
-      description="small e-commerce to practice all the options of add, delete and update an amount on a Cart component, via button or via input."
+      description="Small e-commerce to practice all the options of add, delete and update an amount on a Cart component, via button or via input."
       deploylink="https://shopping-cart-gules-nine.vercel.app/"
       githublink="https://github.com/lolarufino/shopping-cart"
       title="Shopping Cart"
       src="https://i.ibb.co/vDqChqD/eshoppingmock.png"
+    />
+    <SingleProject
+      description="Checkout my GitHub account!"
+      deploylink="https://github.com/lolarufino"
+      githublink="https://github.com/lolarufino"
+      title="Looking for more projects?"
+      src="https://i.ibb.co/KwKkj1k/githubrof.png"
     />
   </div>
 </template>

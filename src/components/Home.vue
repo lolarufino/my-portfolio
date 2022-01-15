@@ -5,7 +5,7 @@
       <div class="text-wrapper">
         <p class="hello">Hello!</p>
         <p class="iam">I'm Lola Rufino</p>
-        <p class="profession">Fullstack Developer & Photographer</p>
+        <p class="profession">Junior Frontend Engineer</p>
         <div class="icons-wrapper">
           <a
             href="https://www.linkedin.com/in/lola-rufino/"
