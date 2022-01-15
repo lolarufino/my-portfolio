@@ -55,8 +55,7 @@
       />
     </div>
     <span class="copyright-text">
-      Made with 💜 by Lola Rufino &copy; {{ getYear() }}. Animations by Andy
-      Parker. Illustration by Cat In the City Art.</span
+      Made with 💜 by Lola Rufino &copy; {{ getYear() }}</span
     >
   </footer>
 </template>
